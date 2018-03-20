@@ -147,10 +147,10 @@ public:
       }
     }
     if (filter_whitelist.empty()) {
-        filter_whitelist.insert(1);
-        filter_whitelist.insert(5);
-        filter_whitelist.insert(9);
-        filter_whitelist.insert(13);
+        filter_whitelist.insert(161);
+        filter_whitelist.insert(195);
+        filter_whitelist.insert(181);
+        filter_whitelist.insert(210);
     }
     if (host != NULL && ns == NULL) showHelp = true;
     if (showHelp) {
